@@ -21,8 +21,6 @@ describe('QuoteForm Component', () => {
   let store;
   chai.use(spies);
 
-
-
   it('renders without crashing', () => {
     const div = document.createElement('div');
     store = createStore(rootReducer)
@@ -34,7 +32,7 @@ describe('QuoteForm Component', () => {
       div
     );
   });
-  //
+
   // it('has a default state', () => {
   //   store = createStore(rootReducer)
   //   wrapper = mount(<Provider store={store}><App /></Provider>);
